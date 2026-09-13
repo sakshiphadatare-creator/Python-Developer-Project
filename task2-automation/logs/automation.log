@@ -1,0 +1,48 @@
+2026-09-12 17:28:27 | INFO | Program started
+2026-09-12 17:28:27 | INFO | Input file received: input/sample_data.csv
+2026-09-12 17:28:27 | INFO | CSV successfully loaded from input/sample_data.csv
+2026-09-12 17:28:27 | INFO | Validation result: passed (12 valid record(s)).
+2026-09-12 17:28:27 | INFO | Report generated successfully.
+2026-09-12 17:28:27 | INFO | Output location: output/employee_report.txt
+2026-09-12 17:28:28 | INFO | Program started
+2026-09-12 17:28:28 | INFO | Input file received: input/empty.csv
+2026-09-12 17:28:28 | INFO | CSV successfully loaded from input/empty.csv
+2026-09-12 17:28:28 | ERROR | The CSV file has no employee records.
+2026-09-12 17:28:28 | INFO | Program started
+2026-09-12 17:28:28 | INFO | Input file received: input/missing_column.csv
+2026-09-12 17:28:28 | INFO | CSV successfully loaded from input/missing_column.csv
+2026-09-12 17:28:28 | ERROR | Validation failed. Missing columns: Salary
+2026-09-12 17:28:28 | ERROR | Missing required column(s): Salary. Required columns are: Employee, Department, Salary, Performance
+2026-09-12 17:28:28 | INFO | Program started
+2026-09-12 17:28:28 | INFO | Input file received: input/invalid_salary.csv
+2026-09-12 17:28:28 | INFO | CSV successfully loaded from input/invalid_salary.csv
+2026-09-12 17:28:28 | WARNING | Removed 2 row(s) with invalid or missing salary values.
+2026-09-12 17:28:28 | ERROR | Validation failed. No valid salary values remain.
+2026-09-12 17:28:28 | ERROR | No valid numeric salary values found. Salary must be a number.
+2026-09-12 17:28:28 | INFO | Program started
+2026-09-12 17:28:28 | INFO | Input file received: input/does_not_exist.csv
+2026-09-12 17:28:28 | ERROR | Input CSV does not exist: input/does_not_exist.csv
+2026-09-13 16:55:01,312 - INFO - Automation started.
+2026-09-13 16:55:01,312 - INFO - Input file: input/sample_data.csv
+2026-09-13 16:55:01,313 - INFO - CSV successfully loaded.
+2026-09-13 16:55:01,313 - INFO - Data validation completed successfully.
+2026-09-13 16:55:01,315 - INFO - Report generated successfully.
+2026-09-13 16:55:01,315 - INFO - Output file: output/employee_report.txt
+2026-09-13 16:55:01,315 - INFO - Records processed: 8
+2026-09-13 16:56:27,909 - INFO - Automation started.
+2026-09-13 16:56:27,909 - INFO - Input file: input/not_found.csv
+2026-09-13 16:56:27,909 - ERROR - Input file not found: input/not_found.csv
+2026-09-13 16:57:34,381 - INFO - Automation started.
+2026-09-13 16:57:34,381 - INFO - Input file: input/test_missing_column.csv
+2026-09-13 16:57:34,383 - INFO - CSV successfully loaded.
+2026-09-13 16:57:34,383 - ERROR - Missing required columns: Performance
+2026-09-13 16:58:56,801 - INFO - Automation started.
+2026-09-13 16:58:56,827 - INFO - Input file: input/test_invalid_salary.csv
+2026-09-13 16:58:56,832 - INFO - CSV successfully loaded.
+2026-09-13 16:58:56,835 - ERROR - Salary contains invalid or missing numeric values.
+2026-09-13 16:59:47,635 - INFO - Automation started.
+2026-09-13 16:59:47,635 - INFO - Input file: input/test_empty.csv
+2026-09-13 16:59:47,636 - ERROR - Unable to read CSV file: No columns to parse from file
+2026-09-13 17:03:24,045 - INFO - Automation started.
+2026-09-13 17:03:24,046 - INFO - Input file: input/test_empty.csv
+2026-09-13 17:03:24,046 - ERROR - The CSV file is empty.

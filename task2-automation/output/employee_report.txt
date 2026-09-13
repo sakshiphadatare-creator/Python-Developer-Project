@@ -1,0 +1,24 @@
+AUTOMATED EMPLOYEE REPORT
+==================================================
+Generated on: 2026-09-13 16:55:01
+
+GENERAL SUMMARY
+--------------------------------------------------
+Total Employees: 8
+Average Salary: ₹46,250.00
+Minimum Salary: ₹38,000.00
+Maximum Salary: ₹55,000.00
+
+DEPARTMENT SUMMARY
+--------------------------------------------------
+IT: 3 employee(s), Average Salary: ₹50,000.00
+HR: 3 employee(s), Average Salary: ₹40,000.00
+Finance: 2 employee(s), Average Salary: ₹50,000.00
+
+PERFORMANCE SUMMARY
+--------------------------------------------------
+Excellent: 3 employee(s)
+Good: 3 employee(s)
+Average: 2 employee(s)
+
+Report generated successfully by Automated CSV Report Generator.
