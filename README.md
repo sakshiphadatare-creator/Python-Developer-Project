@@ -1,4 +1,4 @@
-# Python Developer Internship
+# Python Developer Project
 
 This repository contains the solutions for the Redynox Python Developer Internship Task Assignment.
 
